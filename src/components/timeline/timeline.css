@@ -1,0 +1,120 @@
+.timeline {
+  background-color: black;
+  height: 100vh;
+  text-align: center;
+  /* background:cornflowerblue; */
+  padding-top: 40px;
+  align-items: center;
+}
+
+.timeline > h1 {
+  color: white;
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+
+@font-face {
+  font-family: "agent";
+  src: url("./agent-red.regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "art";
+  src: url("./art-nouveau-caps.regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "feast";
+  src: url("./feast-of-flesh-bb.regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "oldenglish";
+  src: url("./old-english-five.regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "thorletto";
+  src: url("./thorletto.regular.ttf") format("truetype");
+}
+
+.check {
+  color: white;
+  margin: 2px;
+}
+
+.check1 {
+  font-family: "agent";
+  font-size: 80px;
+}
+.check2 {
+  font-family: "art";
+  font-size: 100px;
+  color: rgb(1, 220, 1);
+}
+.check3 {
+  font-family: "feast";
+  font-size: 120px;
+}
+.check4 {
+  font-family: "oldenglish";
+  font-size: 100px;
+}
+.check5 {
+  font-family: "thorletto";
+  font-size: 50px;
+}
+
+.line-container {
+  /* padding-top: 180px; */
+}
+
+.line-div {
+  /* border: solid lawngreen 2px; */
+  background-image: url("../../asset/Slice.png");
+  height: inherit;
+  background-repeat: repeat-x;
+  background-size: 1000px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-div > ul {
+  display: flex;
+  width: 100%;
+  z-index: 9999;
+}
+
+.line-div > ul > li {
+  flex: 1;
+}
+
+.time-events {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+#miss1{
+  width: 200px;
+  height: 200px;
+  margin-top: 300px;
+  -webkit-filter:drop-shadow(0px 0px 20px rgb(255, 132, 0));
+  filter:drop-shadow(0px 0px 20px rgb(255, 132, 0));
+}
+#miss2{
+  width: 300px;
+  height: 300px;
+  margin-top: 250px;
+  -webkit-filter:drop-shadow(0px 0px 20px rgb(255, 132, 0));
+  filter:drop-shadow(0px 0px 20px rgb(255, 132, 0));
+}
+
+#kang{
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  -webkit-filter:drop-shadow(0px 0px 20px rgb(98, 255, 0));
+  filter:drop-shadow(0px 0px 20px rgb(98, 255, 0));
+}

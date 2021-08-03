@@ -1,0 +1,43 @@
+.card{
+    font-family: Arial;
+    background-color:#0a0a0a;
+    width: 420px;
+    padding-bottom: 30px;
+}
+
+.image{
+    height: 240px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.card-body{
+    height: 180px;
+    padding:15px ;
+    text-align: left;
+}
+
+.card-body > h2,p{
+    margin: 15px;
+    color: white;
+} 
+
+.card-body > p{
+    font-size: 20px;
+    color: #939393;
+}
+
+button{
+    width: 85%;
+    padding :10px;
+    font-family: Arial;
+    font-size: 22px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+button:hover{
+    color: coral;
+    background-color: rgb(31, 31, 31);
+}

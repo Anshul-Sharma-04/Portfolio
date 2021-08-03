@@ -1,0 +1,93 @@
+.header {
+  /* background-color: rgb(49, 55, 56) ; */
+  /* background-color: #292A2C ; */
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 9999;
+}
+ul li {
+  padding: 23px;
+  display: inline-block;
+  color: white;
+  font-family: Arial;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+li:hover {
+  color: coral;
+}
+
+ul {
+  margin: 0px;
+}
+
+#logo {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  margin-left:50px ;
+}
+.header-list {
+}
+#timeline-header:hover {
+  color: rgb(1, 220, 1);
+}
+
+
+#theme-toggle{
+    display: flex;
+    align-items: center;
+    margin-right:50px ;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  width: 50px;
+  height: 26px;
+  background-color: #111;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  padding-top: 1px;
+  transform: scale(1.5);
+  border: solid white 2px;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: pink;
+}
+
+.fa-sun {
+  color: yellow;
+}
+
+.label > svg {
+  font-size: 20px;
+  margin-left: 3px;
+}

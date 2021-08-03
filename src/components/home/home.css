@@ -1,0 +1,27 @@
+.default-screen{
+    background-image: url('../../asset/robot-03.jpeg');
+    height: 100vh;
+}
+
+.introduction{
+    padding-top: 100px;
+    padding-bottom: 120px;
+    color: white;
+    background-color:black;
+    text-align: center;
+    font-family: 'Arial';
+    /* border-left: solid rgb(49, 55, 56) 25px;
+    border-top: solid rgb(49, 55, 56) 25px;
+    border-right: solid rgb(49, 55, 56) 25px; */
+    border :solid rgb(49, 55, 56) 25px;
+}
+
+.introduction > h1 {
+    font-size: 70px;
+}
+
+.intro-body{
+    font-size: x-large;
+    width: 40%;
+    margin: auto;
+}

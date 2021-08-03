@@ -1,0 +1,82 @@
+
+/* CSS talk bubble */
+.talk-bubble {
+    margin: 40px;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    background-image: radial-gradient(rgb(255, 219, 181), rgb(255, 132, 0));
+  }
+  .border {
+    border: 8px solid rgb(255, 111, 0);
+    box-shadow: 0px 0px 60px rgb(255, 132, 0);
+  }
+  
+  /*Right triangle, placed bottom right side slightly in*/
+  .tri-right.border.btm-right-in:before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 30px;
+    bottom: -40px;
+    border: 20px solid;
+    border-color: rgb(255, 111, 0) rgb(255, 111, 0) transparent transparent;
+  }
+  .tri-right.btm-right-in:after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 38px;
+    bottom: -20px;
+    border: 12px solid;
+    border-color: rgb(255, 132, 0) rgb(255, 132, 0) transparent transparent;
+  }
+  
+  .tri-right.border.btm-left-in:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 30px;
+    right: auto;
+    top: auto;
+    bottom: -40px;
+    border: 20px solid;
+    border-color: rgb(255, 111, 0) transparent transparent rgb(255, 111, 0);
+  }
+  .tri-right.btm-left-in:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 38px;
+    right: auto;
+    top: auto;
+    bottom: -20px;
+    border: 12px solid;
+    border-color: rgb(255, 132, 0) transparent transparent rgb(255, 132, 0);
+  }
+  
+
+
+  
+  /* talk bubble contents */
+  .talktext {
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+  }
+  .msg {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    display: flex;
+    vertical-align: middle;
+    margin: 2px;
+  }
