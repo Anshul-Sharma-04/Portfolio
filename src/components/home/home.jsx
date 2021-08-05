@@ -1,7 +1,7 @@
 import './home.css';
 const Home = function(){
     return(
-        <div>
+        <div id="home">
             <div className = "default-screen"></div>
 
             <div className = "introduction">

@@ -25,8 +25,6 @@ const Contact = function(){
                     
         
             </div>
-
-        
         
         </div>
     );

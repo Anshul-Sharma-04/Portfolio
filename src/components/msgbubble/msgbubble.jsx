@@ -5,7 +5,7 @@ const MsgBubble = function (props) {
     <div
       className={`talk-bubble tri-right border ${props.direction} `}
       id={props.id}
-      style={{ display: "none" }}
+      style={{ display: "none", marginLeft:props.marginL }}
     >
       <div className="talktext">
         <p

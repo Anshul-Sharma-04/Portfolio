@@ -7,13 +7,18 @@ import {  BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import BackToTop from "./components/backToTop/backToTop";
 import Skills from "./components/skills/skills";
 import Timeline from "./components/timeline/timeline";
+import Cursor from "./asset/lighttheme.png";
 
 function App() {
 
   return (
     <div className="App">
+
+      <div id="lighttheme">
+      </div>
+
       <Router>
-        <Route path="/" >
+        <Route path="/">
           <Home />
         </Route>
 

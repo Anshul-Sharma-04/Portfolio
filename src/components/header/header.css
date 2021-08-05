@@ -7,7 +7,9 @@
   top: 0;
   display: flex;
   justify-content: space-between;
-  z-index: 9999;
+  user-select: none;
+  z-index: 9999999;
+  height: 70px;
 }
 ul li {
   padding: 23px;
@@ -32,7 +34,13 @@ ul {
   display: flex;
   align-items: center;
   margin-left:50px ;
+  cursor: pointer;
 }
+/* #logo > img {
+  width: 100px;
+  height: 100px;
+} */
+
 .header-list {
 }
 #timeline-header:hover {
